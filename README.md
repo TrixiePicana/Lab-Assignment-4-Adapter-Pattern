@@ -17,20 +17,5 @@ FrontDesk: The facade class that coordinates interactions between the client (Ho
 
 HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
 
-# Hotel Management System
+![image](https://github.com/user-attachments/assets/6b35e958-7fe0-4814-a9c9-b8f07bee2186)
 
-This project is a simple Hotel Management System implemented in Java. It includes classes and interfaces to manage various hotel services such as front desk operations, housekeeping, and cart services.
-
-## Class Diagram
-
-!UML Diagram
-
-## Classes and Interfaces
-
-### Interfaces
-
-#### `Readable`
-```java
-public interface Readable {
-    void guest();
-}
