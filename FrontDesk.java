@@ -20,8 +20,29 @@ public class FrontDesk //Facade Class
 
     public void delegateServices()
     {
-        valet.pickUpVehicle("ABC1234");
-        houseKeeping.cleanRoom(110);
-        cart.requestCart(5);
+        if (valet != null)
+        {
+            String plateNumber = "ABC1234";
+            System.out.println("The valet picks up the vehicle with plate number " + plateNumber);
+            valet.pickUpVehicle("ABC1234");
+        }
+
+
+        if (houseKeeping != null)
+        {
+            int roomNumber = 110;
+            System.out.println("Request to clean room number " + roomNumber);
+            houseKeeping.cleanRoom(110);
+        }
+
+
+        if (cart != null)
+        {
+            int numberOfCarts = 5;
+            System.out.println("Request to carry " + numberOfCarts + " carts");
+            cart.requestCart(5);
+        }
+
+
     }
 }
