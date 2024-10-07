@@ -16,3 +16,21 @@ Cart: A service class implementing the HotelService interface, responsible for h
 FrontDesk: The facade class that coordinates interactions between the client (HotelApp) and the individual hotel services.
 
 HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
+
+# Hotel Management System
+
+This project is a simple Hotel Management System implemented in Java. It includes classes and interfaces to manage various hotel services such as front desk operations, housekeeping, and cart services.
+
+## Class Diagram
+
+!UML Diagram
+
+## Classes and Interfaces
+
+### Interfaces
+
+#### `Readable`
+```java
+public interface Readable {
+    void guest();
+}
