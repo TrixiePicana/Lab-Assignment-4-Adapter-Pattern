@@ -17,5 +17,5 @@ FrontDesk: The facade class that coordinates interactions between the client (Ho
 
 HotelApp: The client class that uses the FrontDesk facade to access and utilize hotel services seamlessly.
 
-![image](https://github.com/user-attachments/assets/6b35e958-7fe0-4814-a9c9-b8f07bee2186)
+![image](https://github.com/user-attachments/assets/4495d03d-890a-40d0-b3f6-38502c9ef804)
 
