@@ -1,13 +1,13 @@
-public class Valet implements HotelService //Service Class 1
+public class Cart implements HotelService //Service Class 3
 {
-    public void pickUpVehicle(String plateNumber)
+    public void requestCart(int numberOfCarts)
     {
-        //Request valet to pick up a vehicle with specific plate number accordingly.
+        //Implement request to handle specific number of carts accordingly.
     }
 
     @Override
     public void manageHotelServices()
     {
-        pickUpVehicle("ABC1234");
+        requestCart(5);
     }
 }
